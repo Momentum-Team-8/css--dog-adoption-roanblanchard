@@ -3,19 +3,33 @@
     padding: 0;
     margin: 0;
 }
+ul {
+    list-style-type: none;
+}
 
 body {
     font-family: 'Open Sans', sans-serif;
-    border-left: 200px solid #f2f2f2;
-    border-right: 200px solid #f2f2f2;
+    border-left: 150px solid #f2f2f2;
+    border-right: 150px solid #f2f2f2;
 }
 
 header {
     color: white;
     background-color: #004175;
     padding: 30px;
+    border-bottom: 2px solid #89DEEF;
 }
 
-ul {
-    list-style-type: none;
+main {
+    margin: 50px;
+    margin-top: 20px;
+}
+
+main > h3 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+main > p {
+    margin-bottom: 10px;
 }
