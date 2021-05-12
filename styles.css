@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    border-left: 200px solid #f2f2f2;
+    border-right: 200px solid #f2f2f2;
+}
+
+header {
+    color: white;
+    background-color: #004175;
+    padding: 30px;
+}
+
+ul {
+    list-style-type: none;
+}
